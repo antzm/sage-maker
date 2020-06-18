@@ -24,4 +24,16 @@ From the AWS management console, type "SageMaker" in the search box to find the 
 
 Before using the SageMaker for the first time, you will need a valid IAM role which you can create using the following steps:
 
+## Running a SageMaker Notebook
+
+The easiest way to start a SageMaker Notebook is to store your notebook on a GitHub repo and then provide the address of the repo while creting the SageMeker Notebook.
+
+## AWS EC2 Instances
+
+To run a Jupyter Notebook using SageMaker, you will need to select the instance that it will be used to run the notebook. There are noumerous instances available but to run a Notebook, usually one of the small instances is more than adequate, like a t2 or a t3 instance.
+
+Only wile training a model, you will need to run a more powerful instance that it will be used exclusively for the training, while the Notebook itself will continue to run on the t2 or t3 instance that we had already selected.
+
+
+
 

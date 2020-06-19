@@ -32,8 +32,8 @@ The easiest way to start a SageMaker Notebook is to store your notebook on a Git
 
 To run a Jupyter Notebook using SageMaker, you will need to select the instance that it will be used to run the notebook. There are noumerous instances available but to run a Notebook, usually one of the small instances is more than adequate, like a t2 or a t3 instance.
 
-Only wile training a model, you will need to run a more powerful instance that it will be used exclusively for the training, while the Notebook itself will continue to run on the t2 or t3 instance that we had already selected.
+Only while training a model, you will need to run a more powerful instance that it will be used exclusively for the training, while the Notebook itself will continue to run on the t2 or t3 instance that we had already selected.
 
+## Choosing an instance
 
-
-
+While choosing an instance, we should aim to choose the most adequate instance based on our needs. Otherwise the instance won't be poweful enough to run our code or it may be too poweful which means spending more money than needed.

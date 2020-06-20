@@ -37,3 +37,13 @@ Only while training a model, you will need to run a more powerful instance that 
 ## Choosing an instance
 
 While choosing an instance, we should aim to choose the most adequate instance based on our needs. Otherwise the instance won't be poweful enough to run our code or it may be too poweful which means spending more money than needed.
+
+## SageMaker Instances and Pricing
+
+Details of the SageMaker instances:
+https://aws.amazon.com/sagemaker/pricing/instance-types/
+
+Pricing of the SageMaker instances:
+https://aws.amazon.com/sagemaker/pricing/
+
+

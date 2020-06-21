@@ -28,9 +28,9 @@ Before using the SageMaker for the first time, you will need a valid IAM role wh
 
 The easiest way to start a SageMaker Notebook is to store your notebook on a GitHub repo and then provide the address of the repo while creting the SageMeker Notebook.
 
-## AWS EC2 Instances
+## AWS ML EC2 Instances
 
-To run a Jupyter Notebook using SageMaker, you will need to select the instance that it will be used to run the notebook. There are noumerous instances available but to run a Notebook, usually one of the small instances is more than adequate, like a t2 or a t3 instance.
+To run a Jupyter Notebook using SageMaker, you will need to select the ML instance that it will be used to run the notebook. There are noumerous instances available but to run a Notebook, usually one of the small instances is more than adequate, like a t2 or a t3 instance.
 
 Only while training a model, you will need to run a more powerful instance that it will be used exclusively for the training, while the Notebook itself will continue to run on the t2 or t3 instance that we had already selected.
 
@@ -46,4 +46,11 @@ https://aws.amazon.com/sagemaker/pricing/instance-types/
 Pricing of the SageMaker instances:
 https://aws.amazon.com/sagemaker/pricing/
 
+## Important Note:
+
+When you start running a Jupyter Notebook on SageMaker, the notebook will continue running even if you log out from your AWS account. Thus, you should stop the notebook when you don't need it otherwise you will continue to getting charged even if you think that you are not using the AWS services.
+
+As a general note, you should always pay attention to the AWS services that are running in your account and to make sure that anything that is not needed is stopped.
+
+With some experince also, you will be able to select the most effient options for the projects you are running on the AWS platform, so to succesfully perfom the tasks you need and at the same time to save on the cost of the serivce.
 

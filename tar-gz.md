@@ -1,5 +1,7 @@
 # How to use ".tar.gz" files on Windows 10
 
+> There's no need anymore to install specialized software to handle ".tar.gz" files on Windows 10. You can simply use powershell which now supports natively the relevant commands.
+
 **TL;DR**
 1. Open PowerShell in your working folder
 2. To decompress: tar -xvzf my_collection.tar.gz
@@ -21,14 +23,14 @@ tar [options] [the file that will be created] [the folder that will be compresse
 ## Options:
 
 The "tar" options:
--x : Extract archive
--c : Create archive
--v : Display verbose information
-(About the -v option: If you are decompressing or compressing thousands of files, it would be better to omit this option because by displaying the name of every single file, the process will become slower).
--z : compress or decompress using gzip
-(About the -z option: If you would like to create or extract a ".tar" file -i.e. without .gz extension at the end- then omit this option)
--f : The names of the files that will used for the process
--t : Display the contents of a ".tar.gz" archive, without extracting them.
+* -x : Extract archive
+* -c : Create archive
+* -v : Display verbose information
+	* (About the -v option: If you are decompressing or compressing thousands of files, it would be better to omit this option because by displaying the name of every single file, the process will become slower).
+* -z : compress or decompress using gzip
+	* (About the -z option: If you would like to create or extract a ".tar" file -i.e. without .gz extension at the end- then omit this option)
+* -f : The names of the files that will used for the process
+* -t : Display the contents of a ".tar.gz" archive, without extracting them.
 
 ## Example 1:
 
@@ -49,7 +51,8 @@ To compress the folder "my_folder" which is inside the "outer_folder"
 ## Example 3:
 
 To display the folders and the files included in a ".tar.gz file", without extracting them:
-tar -tf my_archive.tar.gz
+tar -tf my_archive.tar.gz  
+
 Or, for more information:
 tar -tvf my_archive.tar.gz
 

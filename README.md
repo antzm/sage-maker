@@ -17,7 +17,7 @@ For this reason, instead of using big datasets, it more practical to create smal
 If you would like to make a smaller dataset from a dataset that is stored in a .tar.gz file i.e. a tar file that has been compressed with gzip, then you could follow the detailed instructions in the tar.gz.md file (in this repository) and build a smaller dataset.  
 At the end, you should create a .tar.gz file that contains your smaller dataset. The instructions for that, can also be found in the same file as above.
 
-As an example, a small dataset in included in this repository. It is the IMDB dataset which includes only 0,5% of the original dataset and the purpose is to easily examine the contents of the dataset and to experiment with it.
+As an example, a small dataset is included in this repository. It is the IMDB dataset which includes only 0,5% of the original dataset and the purpose is to easily examine the contents of the dataset and to experiment with it.
 
 ## Starting with Amazon SageMaker
 
@@ -59,3 +59,6 @@ As a general note, you should always pay attention to the AWS services that are 
 
 With some experince also, you will be able to select the most effient options for the projects you are running on the AWS platform, so to succesfully perfom the tasks you need and at the same time to save on the cost of the serivce.
 
+## Writing in Markdown language
+
+As a reminder, you can read a few tips for using the Markdown language in the file "markdown.md", which you can also find in this repository.

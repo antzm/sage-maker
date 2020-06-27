@@ -14,7 +14,7 @@ When using SageMaker for Machine Learning tasks, it takes a long to time prepare
 
 For this reason, instead of using big datasets, it more practical to create small datasets and perform all out task using those small datasets and only when we feel confident that our code works as expected, then we could load the full dataset and start creating our model.
 
-If you would like to make a smaller dataset from a dataset that is stored in a .tar.gz file i.e. a tar file that has been compressed with gzip, then you could follow the detailed instructions in the tar.gz.md file (in this repository) and build a smaller dataset.  
+If you would like to make a smaller dataset from a dataset that is stored in a .tar.gz file i.e. a tar file that has been compressed with gzip, then you could follow the detailed instructions in the tar.gz.md [file](tar-gz.md) (in this repository) and build a smaller dataset.  
 At the end, you should create a .tar.gz file that contains your smaller dataset. The instructions for that, can also be found in the same file as above.
 
 As an example, a small dataset is included in this repository. It is the IMDB dataset which includes only 0,5% of the original dataset and the purpose is to easily examine the contents of the dataset and to experiment with it.
@@ -61,4 +61,4 @@ With some experince also, you will be able to select the most effient options fo
 
 ## Writing in Markdown language
 
-As a reminder, you can read a few tips for using the Markdown language in the file "markdown.md", which you can also find in this repository.
+As a reminder, you can read a few tips for using the Markdown language in the [file](markdown.md) "markdown.md", which you can also find in this repository.

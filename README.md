@@ -51,6 +51,10 @@ https://aws.amazon.com/sagemaker/pricing/instance-types/
 Pricing of the SageMaker instances:
 https://aws.amazon.com/sagemaker/pricing/
 
+## SageMaker on the AWS Educate Starter Account
+
+The AWS Educate Starter Account supports only the ml.t2 and the ml.t3 instances for the SageMaker. Thus, the SageMaker functionality, under this account, ise limited to the usage of small datasets, as the larger datasets will probably cause an error.
+
 ## Important Note:
 
 When you start running a Jupyter Notebook on SageMaker, the notebook will continue running even if you log out from your AWS account. Thus, you should stop the notebook when you don't need it otherwise you will continue to getting charged even if you think that you are not using the AWS services.

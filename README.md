@@ -43,6 +43,8 @@ Only while training a model, you will need to run a more powerful instance that 
 
 While choosing an instance, we should aim to choose the most adequate instance based on our needs. Otherwise the instance won't be poweful enough to run our code or it may be too poweful which means spending more money than needed.
 
+I would rather say that instances should be chosen wisely!
+
 ## SageMaker Instances and Pricing
 
 Details of the SageMaker instances:
@@ -55,6 +57,9 @@ https://aws.amazon.com/sagemaker/pricing/
 
 The AWS Educate Starter Account supports only the ml.t2 and the ml.t3 instances for the SageMaker. Thus, the SageMaker functionality, under this account, ise limited to the usage of small datasets, as the larger datasets will probably cause an error.
 
+Details about the AWS Educate Starter Account:
+https://s3.amazonaws.com/awseducate-starter-account-services/AWS_Educate_Starter_Accounts_and_AWS_Services.pdf
+
 ## Important Note:
 
 When you start running a Jupyter Notebook on SageMaker, the notebook will continue running even if you log out from your AWS account. Thus, you should stop the notebook when you don't need it otherwise you will continue to getting charged even if you think that you are not using the AWS services.
@@ -66,3 +71,9 @@ With some experince also, you will be able to select the most effient options fo
 ## Writing in Markdown language
 
 As a reminder, you can read a few tips for using the Markdown language in the [file](markdown.md) "markdown.md", which you can also find in this repository.
+
+## Adding HTML code in your Jupyter Notebook
+
+In a Jupyter Notebook, you can also add some parts using HTML code, like lists, or a small table of contents if the Jupyter Notebook is too big, so that you can navigate easily inside the Notebook.
+
+

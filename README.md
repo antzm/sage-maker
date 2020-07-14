@@ -8,6 +8,14 @@ When creating a new SameMaker notebook, you can simply provide the URL of this r
 
 Then, you can select which Jupyter Notebook you wish to run, and make any changes you wish to the provided code.
 
+Thus, the only purpose of this repository, it to help you run easily your first Jupyter Notebook on the Amazon SageMaker platform.
+
+## Why learn how to use SageMaker?
+
+If you have a powefull computer with a state of the art graphing card, then obviously you could use your own computer for data abalysis and machine learning using jupyter notebboks.
+
+If though you don't own, or in general you don't have access to such a computer, then by all means it would be beneficial to learn how to use the Amazon SageMaker platform, as you will be able to analyze vast amounts of data and to use them for training machine learning models.
+
 ## Using smaller datasets
 
 When using SageMaker for Machine Learning tasks, it takes a long to time prepare the data and to train a model. Thus, a mistake in training may take many hours before its outcome appears.

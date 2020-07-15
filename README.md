@@ -1,6 +1,6 @@
 # AWS SageMaker Jupyter Notebooks
 
-This repository contains Jupyter Notebooks that can be used on AWS's SageMaker.
+This repository contains information about using Amazon SageMaker and additionaly, it also has some Jupyter Notebooks that can be used on Amazon SageMaker.
 
 The purpose of this repository is to include a few Jupyter Notebooks and some small datasets that can be used directly on the SageMaker platform.
 
@@ -12,7 +12,7 @@ Thus, the only purpose of this repository, it to help you run easily your first 
 
 ## Why learn how to use SageMaker?
 
-If you have a powefull computer with a state of the art graphing card, then obviously you could use your own computer for data abalysis and machine learning using jupyter notebboks.
+If you have a powefull computer, with a state of the art graphing card, then obviously you could use your own computer for data analysis and machine learning, using jupyter notebboks.
 
 If though you don't own, or in general you don't have access to such a computer, then by all means it would be beneficial to learn how to use the Amazon SageMaker platform, as you will be able to analyze vast amounts of data and to use them for training machine learning models.
 
@@ -83,5 +83,3 @@ As a reminder, you can read a few tips for using the Markdown language in the [f
 ## Adding HTML code in your Jupyter Notebook
 
 In a Jupyter Notebook, you can also add some parts using HTML code, like lists, or a small table of contents if the Jupyter Notebook is too big, so that you can navigate easily inside the Notebook.
-
-
